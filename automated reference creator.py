@@ -3,6 +3,10 @@
 #root = tk.Tk()
 #italicised = tkFont.Font(slant='italic')
 
+git fetch origin
+git checkout -b Current origin/Current
+git merge master
+
 def optionlist():
     #determines type of source
     global option
